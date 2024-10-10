@@ -1,0 +1,12 @@
+---
+- name: Playbook1
+  hosts: web
+  tasks:
+   - name: Package Installation
+     apt:
+      name:
+      - nginx
+      - mariadb-server
+      - wordpress
+      state: latest
+

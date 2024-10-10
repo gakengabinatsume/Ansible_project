@@ -1,0 +1,4 @@
+[web]
+node1 ansible_host =10.106.0.2 ansible_user=root ansible_ssh_pass="1pas$Word"
+node2 ansible_host =10.106.0.3 ansible_user=root ansible_ssh_pass="1pas$Word"
+node3 ansible_host =10.106.0.4 ansible_user=root ansible_ssh_pass="1pas$Word"
